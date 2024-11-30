@@ -36,9 +36,9 @@ global.listo = '✨️ *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
 
 //ids channel
-global.channelid = 'https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w'
-global.canalIdYL = ["https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w"]
-global.canalNombreYL = ["RAGNABOT-MD", "RAGNABOT - Notify", "© All Rightd Reserved • RAGNABOT", "RAGNABOT - Channel ", "RAGNABOT", "RAGNABOT "]
+global.channelid = ''
+global.canalIdYL = ["", "", "r", "", "", ""]
+global.canalNombreYL = ["", "", "", "", "", ""]
 global.channelRD = await getRandomChannel()
 
 //fechas
@@ -109,9 +109,9 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://qu.ax/jqbRA.jpg',
 'https://qu.ax/JNSBf.jpg',
-'https://qu.ax/vqsfJ.png'
+'https://qu.ax/JNSBf.jpg',
+'https://qu.ax/JNSBf.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: namebot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
