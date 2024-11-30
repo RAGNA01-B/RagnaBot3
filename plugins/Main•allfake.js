@@ -36,9 +36,9 @@ global.listo = '✨️ *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
 
 //ids channel
-global.channelid = '120363370415738881@newsletter'
-global.canalIdYL = ["120363160031023229@newsletter", "120363370415738881@newsletter", "120363263466636910@newsletter", "120363307382381547@newsletter", "120363301598733462@newsletter", "120363371018732371@newsletter"]
-global.canalNombreYL = ["INFINITY-WA 💫", "YaemoriBot - Notify 🍄", "© All Rightd Reserved • YaemoriBot", "Megumin Bot - Channel 💥", "Sky Ultra Plus ☁️", "Hutao - Test ❤️‍🔥"]
+global.channelid = 'https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w'
+global.canalIdYL = ["https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w", "https://whatsapp.com/channel/0029VaxGHbk0VycH76kD4M1w"]
+global.canalNombreYL = ["RAGNABOT-MD", "RAGNABOT - Notify", "© All Rightd Reserved • RAGNABOT", "RAGNABOT - Channel ", "RAGNABOT", "RAGNABOT "]
 global.channelRD = await getRandomChannel()
 
 //fechas
